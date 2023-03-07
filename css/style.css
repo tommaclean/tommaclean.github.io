@@ -159,5 +159,11 @@ img {
 }
 
 .about-tom {
-    padding: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.contact-tom {
+    padding-left: 15px;
+    padding-top: 10px;
 }
