@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+:root {
+    --bg-black-900:#000000;
+    --bg-black-100: #171717;
+    --bg-black-50: #999999;
+    --text-black-900: #fdf9ff;
+    --text-black-700: #d3d3d3;
+}
+
+
+body {
+    font-size: 16px;
+    color: var(--text-black-900);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    background: var(--bg-black-900);
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::before,::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--text-black-700);
+}
+
+a:hover {
+    color: #bf0303;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-content {
+    height: 100vw;
+    width: 80vw;
+    position: relative;
+}
+
+section {
+    background: var(--bg-black-900);
+    /* border: 1px solid white; */
+    /* min-height: 100vh; */
+    display: block;
+    padding: 0 30px;
+    position: relative;
+    left: 200px;
+    /* padding: 30px 30px; */
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 1;
+    overflow-y: auto;
+    overflow-x: auto;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.section-title {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.work-item {
+    margin: 10px;
+}
+.work-title {
+    display: block;
+    width: 200px;
+    font-size: 16px;
+}
+
+.role {
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+.aside {
+    width: 270px;
+    background: var(--bg-black-900);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: top;
+    z-index: 10;
+
+}
+
+.aside .logo {
+    position: relative;
+    top: 80px;
+    text-align: right;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.aside .logo a {
+    color: var(--text-black-900);
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+#tom::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.aside .logo a:hover {
+    color: #bf0303;
+}
+
+.aside .nav {
+    margin-top: 5px;
+    position: relative;
+    top: 80px;
+}
+
+.aside .nav li {
+    text-align: right;
+    margin-bottom: 2px;
+    display: list-item;
+}
+
+.aside .nav li a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-tom {
+    padding: 20px;
+}
