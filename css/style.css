@@ -47,13 +47,10 @@ ul {
 
 section {
     background: var(--bg-black-900);
-    /* border: 1px solid white; */
-    /* min-height: 100vh; */
     display: block;
     padding: 0 30px;
     position: relative;
-    left: 200px;
-    /* padding: 30px 30px; */
+    left: 270px;
     top: 80px;
     right: 0;
     bottom: 0;
