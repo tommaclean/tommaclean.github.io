@@ -39,10 +39,15 @@ ul {
     list-style-type: none;
 }
 
+hr {
+    margin-top: 40px;
+}
+
 .main-content {
-    height: 100vw;
-    width: 80vw;
-    position: relative;
+    height: 100vh;
+    width: 65vw;
+    position: sticky;
+    left: 270px;
 }
 
 section {
@@ -50,10 +55,10 @@ section {
     display: block;
     padding: 0 30px;
     position: relative;
-    left: 270px;
     top: 80px;
     right: 0;
     bottom: 0;
+    left: 0;
     z-index: 0;
     opacity: 1;
     overflow-y: auto;
@@ -69,11 +74,24 @@ section {
 
 .section-title {
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 35px;
+    position: relative;
+    left: -10px;
 }
+
+
 
 .work-item {
     margin: 10px;
+}
+
+.audiobook-work-item {
+    margin: 10px;
+}
+
+.audiobook-img {
+    height: 100px;
+    width: 100px;
 }
 .work-title {
     display: block;
@@ -81,9 +99,17 @@ section {
     font-size: 16px;
 }
 
+.audiobook-work-item {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
 .role {
     font-style: italic;
     font-size: 14px;
+    
 }
 
 
@@ -154,17 +180,15 @@ img {
 }
 
 .aside .nav li a {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 
 .about-tom {
-    padding-left: 15px;
     padding-top: 10px;
 }
 
 .contact-tom {
-    padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 75px;
 }
